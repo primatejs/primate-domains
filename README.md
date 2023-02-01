@@ -4,8 +4,6 @@ Domains add a layer of persistance to Primate. They are backed by data stores
 with the default being a transient in-memory store. Additional stores exist for
 filesystem (flat), JSON, and MongoDb.
 
-All domains are loaded by default from `domains`.
-
 ## Fields
 
 A record in the domain's store is described using the static `fields` property.
